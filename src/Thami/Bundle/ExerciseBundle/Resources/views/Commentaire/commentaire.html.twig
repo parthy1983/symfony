@@ -1,0 +1,12 @@
+{%for commmentaire in result_commmentaires%}
+
+    <p><b> Commentaire : {{commmentaire.commentaire}} <br>
+            created date : {{commmentaire.created}} <br>
+            Username : {{commmentaire.users.username()}} <br>
+        </b></p>    
+    
+{%endfor%}
+
+{{ dump(result_commmentaires)}}
+
+

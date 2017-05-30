@@ -1,0 +1,13 @@
+thami_exercise_commentaire_add:
+    path:     /commentaire/add
+    defaults: { _controller: ThamiExerciseBundle:Commentaire:add }
+    
+thami_exercise_commentaire_edit:
+    path:     /commentaire/edit
+    defaults: { _controller: ThamiExerciseBundle:Commentaire:edit }
+
+
+thami_exercise_commentaire_delete:
+    path:     /commentaire/delete
+    defaults: { _controller: ThamiExerciseBundle:Commentaire:delete }
+

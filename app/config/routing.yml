@@ -1,0 +1,7 @@
+thami_exercise:
+    resource: "@ThamiExerciseBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation

@@ -1,0 +1,53 @@
+thami_exercise_homepage:
+    path:     /
+    defaults: { _controller: ThamiExerciseBundle:Default:index }
+    
+thami_exercise_default_add:
+    path:     /add
+    defaults: { _controller: ThamiExerciseBundle:Default:add }
+    
+thami_exercise_default_edit:
+    path:     /edit
+    defaults: { _controller: ThamiExerciseBundle:Default:edit }
+
+
+thami_exercise_default_delete:
+    path:     /delete
+    defaults: { _controller: ThamiExerciseBundle:Default:delete }
+
+    
+thami_exercise_user:
+    path:     /user
+    defaults: { _controller: ThamiExerciseBundle:User:user }
+    
+thami_exercise_user_add:
+    path:     /user/add
+    defaults: { _controller: ThamiExerciseBundle:User:add }
+    
+thami_exercise_user_edit:
+    path:     /user/edit
+    defaults: { _controller: ThamiExerciseBundle:User:edit }
+
+
+thami_exercise_user_delete:
+    path:     /user/delete
+    defaults: { _controller: ThamiExerciseBundle:User:delete }
+    
+
+thami_exercise_commentaire:
+    path:     /commentaire
+    defaults: { _controller: ThamiExerciseBundle:Commentaire:commentaire }
+    
+thami_exercise_commentaire_add:
+    path:     /commentaire/add
+    defaults: { _controller: ThamiExerciseBundle:Commentaire:add }
+    
+thami_exercise_commentaire_edit:
+    path:     /commentaire/edit
+    defaults: { _controller: ThamiExerciseBundle:Commentaire:edit }
+
+
+thami_exercise_commentaire_delete:
+    path:     /commentaire/delete
+    defaults: { _controller: ThamiExerciseBundle:Commentaire:delete }
+
